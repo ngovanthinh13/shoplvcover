@@ -1,0 +1,416 @@
+* {
+    /* width: 1140px; */
+    /* margin: 0 auto; */
+}
+
+.nav_left ul {
+    display: flex;
+    list-style: none;
+    /* margin-left: px; */
+    padding-left: 20px;
+    /* margin-right: 3px; */
+    /* padding-right: 3px; */
+}
+
+.nav_left ul li {
+    padding-right: 5px;
+}
+
+.nav {
+    display: flex;
+    /*<---------------------*/
+    justify-content: space-between;
+    align-items: center;
+    width: 98vw;
+    margin-top: -10px;
+    background: white;
+    /* position: fixed; */
+    /* border: 1px solid black; */
+}
+.multi_block{
+    margin-top: 0;
+    position: fixed;
+}
+.nav_right ul {
+    display: flex;
+    list-style: none;
+}
+
+.nav_left {
+    display: flex;
+    justify-content: center;
+}
+
+.nav_right ul li img {
+    display: flex;
+    width: 24px;
+}
+
+.logo a {
+    text-decoration: none;
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+    margin-left: 0vw;
+}
+
+.nav_left {
+    /* width: 30vw; */
+}
+
+.logo {
+    /* width: 40vw; */
+}
+
+.nav_right {
+    display: flex;
+}
+
+.nav_right ul {
+    display: flex;
+}
+
+.nav_right ul li {
+    padding-left: 2vw;
+    padding-right: 20px;
+}
+
+
+/* ------------------login------------------- */
+
+.multi_block {}
+
+.block_sign {
+    opacity: fixed;
+    display: flex;
+    height: 100vh;
+    width: 100vw;
+}
+
+.display_emtry {
+    width: 60vw;
+    background: dimgray;
+    opacity: 0.5;
+}
+
+.display_form {
+    width: 40vw;
+    background: white;
+    padding-left: 20px;
+}
+
+.form_header {
+    display: flex;
+    justify-content: space-around;
+}
+
+.form_main form {
+    display: block;
+    margin-top: 20px;
+}
+
+.form_main form input {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 30vw;
+}
+
+.form_main .title_sigin {
+    padding-top: 20px;
+}
+
+.form_main button {
+    margin-top: 10px;
+    margin-bottom: 20px;
+    width: 30.5vw;
+    border: none;
+    outline: none;
+    background: black;
+    height: 50px;
+    color: white;
+}
+
+
+/* --------------------------Cart--------------------------- */
+
+.block_cart {
+    display: block;
+    /* mặc định được ẩn đi */
+    position: fixed;
+    /* vị trí cố định */
+    z-index: 1;
+    /* Ưu tiên hiển thị trên cùng */
+    /* padding-top: 100px;  */
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgb(0, 0, 0);
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+.display_emtry {
+    width: 60vw;
+    background: dimgray;
+    opacity: 0.5;
+}
+
+.display_form {
+    width: 40vw;
+    background: white;
+    padding-left: 20px;
+}
+
+.form_header {
+    display: flex;
+    justify-content: space-around;
+}
+
+.form_main form {
+    display: block;
+    margin-top: 20px;
+}
+
+.list_item {
+    display: flex;
+    justify-content: space-between;
+}
+
+.form_main button {
+    margin-top: 10px;
+    margin-bottom: 20px;
+    width: 30.5vw;
+    border: none;
+    outline: none;
+    background: black;
+    height: 50px;
+    color: white;
+}
+
+.all_list {
+    display: flex;
+    justify-content: space-between;
+}
+
+.sum_items {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 10vh;
+    margin-top: 5vh;
+}
+
+.form_sigin_line {
+    height: 2px;
+    background: black;
+    width: 100vw;
+}
+
+.form_list_items {
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+    display: flex;
+    justify-content: space-around;
+}
+
+.item_name {
+    font-weight: bold;
+}
+
+.item_img img {
+    width: 24px;
+}
+
+
+/* -----------x---------------Cart---------------x------------ */
+
+.hiden {
+    display: none;
+}
+
+.nav_right ul li {
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+}
+
+.nav_right ul li input {
+    background: #dfe6e9;
+    outline: none;
+    border: none;
+    border-radius: 30px;
+    /* margin-right: 40px; */
+    margin-top: 0;
+    /* border-bottom: black; */
+    height: 25px;
+    padding-left: 20px;
+}
+
+
+/* --------search------------ */
+
+.block_search {
+    /* opacity: 100%; */
+    position: relative;
+    /* transition-property: opacity; */
+    /* transition-duration: 5s; */
+    animation-name: example;
+    animation-duration: 4s;
+    /* transition: 2s; */
+    /* display: flex; */
+    /* justify-content: center; */
+    /* align-items: center; */
+}
+
+@keyframes example {
+    from {
+        opacity: 0%;
+    }
+    to {
+        opacity: 100%;
+    }
+}
+
+.block_search_form {}
+
+.block_search_icon {
+    /* position: absolute;
+    top: 4px;
+    right: 4%; */
+}
+
+.search_title {
+    font-size: 10px;
+}
+
+.block_search .block_search_icon a img {
+    width: 18px;
+}
+
+.block_search_icon-btn {
+    background: black;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    /* justify-content: center; */
+    /* text-align: center; */
+    align-items: center;
+    color: white;
+    top: 0px;
+    right: -4%;
+    width: 5vw;
+    border-radius: 0 30px;
+    height: 27px;
+}
+
+
+/* -x-------search------x------ */
+
+
+/* ------------modal-------------- */
+
+.block_sign {
+    display: block;
+    /* mặc định được ẩn đi */
+    position: fixed;
+    /* vị trí cố định */
+    z-index: 1;
+    /* Ưu tiên hiển thị trên cùng */
+    /* padding-top: 100px;  */
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgb(0, 0, 0);
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+
+/* Modal Content */
+
+.modal-content {
+    background-color: #fefefe;
+    margin-right: 0;
+    margin-left: auto;
+    /* padding: 20px; */
+    border: 1px solid #888;
+    width: 30vw;
+    height: 100vh;
+}
+
+.close {
+    cursor: pointer;
+}
+
+.modal-content_title {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-bottom: 1px solid black;
+}
+
+.myaccount-line {
+    border-right: 2px solid black;
+    width: 5px;
+    height: 10vh;
+}
+
+.modal-content h2,
+b {
+    padding-left: 20px;
+}
+
+.modal-content input {
+    margin: 2.5vw;
+    height: 5vh;
+    width: 25vw;
+}
+
+.modal-content .form_sigin button {
+    margin: 0 2.5vw 2.5vw 2.5vw;
+    width: 25.5vw;
+    border: none;
+    background: black;
+    color: white;
+    height: 5vh;
+}
+
+.myaccount {
+    /* padding-top: 20`px; */
+}
+
+
+/* --------x------modal--------x------- */
+
+
+/* ---------responsive----------- */
+
+@media only screen and (max-width:1200px) {
+    /* For mobile phones: */
+    .modal-content {
+        width: 40vw;
+        height: 100vh;
+    }
+}
+
+@media only screen and (max-width:800px) {
+    /* For mobile phones: */
+    .modal-content {
+        height: 100vh;
+        width: 50vw;
+    }
+}
+
+@media only screen and (max-width:600px) {
+    /* For mobile phones: */
+    .modal-content {
+        height: 100vh;
+        width: 100vw;
+    }
+}
+
+
+/* ----------x-----responsive----x------------ */

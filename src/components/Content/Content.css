@@ -1,0 +1,138 @@
+.slider{
+    padding-top: 50px;
+}
+
+.content_body{
+    /* margin-top: 50px; */
+}
+.slider img {
+    /* width: 97.75vw; */
+    width: 99.85%;
+    /* border: 1px solid black; */
+}
+
+.slider_button button {
+    margin-top: 10px;
+    margin-bottom: 20px;
+    width: 30.5vw;
+    border: none;
+    outline: none;
+    background: black;
+    height: 50px;
+    color: white;
+}
+
+.slider_button {
+    /* border: 1px solid black; */
+    text-align: center;
+}
+
+
+/* -----------main content---------- */
+
+.main_content {
+    display: flex;
+    border: 1px solid black;
+    border-bottom: 1px solid black;
+}
+
+.content_left {
+    width: 50vw;
+    height: 100%;
+    overflow: hidden;
+    text-align: center;
+    /* border-right: 1px solid black; */
+}
+
+.content_left img {
+    width: 93%;
+    height: 100%;
+    margin: 3.5%;
+    object-fit: cover;
+    /* width:100vw ; */
+}
+
+.content_right {
+    width: 50vw;
+    height: 100%;
+    overflow: hidden;
+    border-left: 1px solid black;
+    text-align: center;
+}
+
+.content_right img {
+    width: 93%;
+    height: 100%;
+    margin: 3.5%;
+    object-fit: cover;
+}
+
+.content_right_item {
+    display: flex;
+    flex: row;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    height: 63.5vh;
+    border-bottom: 1px solid black;
+}
+
+.content_right_item_under {
+    /* border-left: 1px solid black; */
+}
+
+
+/* ----------responsive */
+
+@media only screen and (max-width:1200px) {
+    /* For mobile phones: */
+    .content_right_item {
+        height: 40vh;
+    }
+}
+
+@media only screen and (max-width:800px) {
+    /* For mobile phones: */
+    .content_right_item {
+        height: 50vw;
+    }
+}
+
+@media only screen and (max-width:600px) {
+    /* For mobile phones: */
+    .content_right_item {
+        height: 30vw;
+    }
+}
+
+
+/* ------x------res ---------x */
+
+.content_right_item_content button {
+    margin-top: 10px;
+    margin-bottom: 20px;
+    width: 30.5vw;
+    border: none;
+    outline: none;
+    background: black;
+    height: 50px;
+    color: white;
+}
+
+
+/* -------x----main content------x---- */
+
+
+/* ------------global----------------- */
+
+ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+/* ------x------global---------x-------- */

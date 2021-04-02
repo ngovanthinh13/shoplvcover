@@ -1,0 +1,30 @@
+.footer_menu {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer_menu_right {
+    display: flex;
+}
+
+@media only screen and (max-width:600px) {
+    /* For mobile phones: */
+    .footer_menu_right {
+        /* height: 30vw; */
+        display: block;
+    }
+}
+
+.footer_menu_right li {
+    padding-left: 20px;
+}
+
+.icon_footer_input {
+    position: relative;
+}
+
+.icon_email {
+    position: absolute;
+    top: 0px;
+    right: 5px;
+}
