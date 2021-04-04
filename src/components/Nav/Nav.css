@@ -414,3 +414,10 @@ b {
 
 
 /* ----------x-----responsive----x------------ */
+
+
+.fixurl{
+    list-style: none;
+    text-decoration: none;
+    color: black;
+}

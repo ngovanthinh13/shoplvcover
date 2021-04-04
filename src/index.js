@@ -10,7 +10,7 @@ import App from './App';
 import Home from './components/Home/Home'
 import Login from './components/Login/Login'
 import Cart from './components/Cart/Cart'
-
+import Products from "./components/Products/Products"
 
 ReactDOM.render(
   <BrowserRouter>
@@ -19,6 +19,8 @@ ReactDOM.render(
         <Route path="/home" component={Home} />
         <Route path="/login" component={Login}  />
         <Route path="/cart" component={Cart}  />
+        <Route path="/product" component={Products}  />
+
         {/* <Route path="/men" component={Men} /> */}
         {/* <Route path="/clothes" component={Clothes}  /> */}
         {/* <Route path="/accessories" component={Accessories} /> */}

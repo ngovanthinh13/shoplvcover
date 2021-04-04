@@ -66,10 +66,10 @@ function Nav() {
                 <div className='nav_left'>
                     <ul style={{}}>
                         <li>SHOP</li>
-                        <li>HOLIDAY 2020</li>
+                        <li><Link className='fixurl' to='/product'>HOLIDAY 2020</Link></li>
                     </ul>
                 </div>
-                <div className='logo'><Link to='/'>ESSENTIALS</Link></div>
+                <div className='logo'><Link className='fixurl' to='/'>ESSENTIALS</Link></div>
                 <div className='nav_right'>
                     <ul>
                         <li>
